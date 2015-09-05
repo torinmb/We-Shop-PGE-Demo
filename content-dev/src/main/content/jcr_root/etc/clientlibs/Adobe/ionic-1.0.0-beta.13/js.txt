@@ -1,0 +1,4 @@
+#base=js
+
+ionic.min.js
+ionic-angular.min.js

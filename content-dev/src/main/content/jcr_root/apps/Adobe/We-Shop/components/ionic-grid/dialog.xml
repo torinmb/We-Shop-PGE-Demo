@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Grid Layout"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <num-rows
+            jcr:primaryType="nt:unstructured"
+            defaultValue="{Long}2"
+            fieldLabel="Number of Rows"
+            name="./num-rows"
+            xtype="numberfield"/>
+        <num-columns
+            jcr:primaryType="nt:unstructured"
+            defaultValue="{Long}1"
+            fieldLabel="Number of Columns"
+            name="./num-columns"
+            xtype="numberfield"/>
+    </items>
+</jcr:root>

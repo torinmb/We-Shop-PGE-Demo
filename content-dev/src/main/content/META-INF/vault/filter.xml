@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/Adobe/We-Shop"/>
+    <filter root="/etc/clientlibs/Adobe/ionic-1.0.0-beta.13"/>
+    <filter root="/etc/clientlibs/Adobe/angular-snap"/>
+    <filter root="/etc/designs/phonegap/Adobe/We-Shop"/>
+    <filter root="/content/phonegap/We-Shop/shell"/>
+</workspaceFilter>

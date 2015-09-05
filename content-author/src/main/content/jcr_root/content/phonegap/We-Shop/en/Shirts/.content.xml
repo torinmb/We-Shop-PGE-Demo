@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/phonegap/Adobe/We-Shop"
+        cq:lastModified="{Date}2015-08-21T16:39:48.427-07:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/Adobe/We-Shop/templates/ng-ionic-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Shirts"
+        sling:resourceType="Adobe/We-Shop/components/ng-ionic-page">
+        <content-par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <ionic_product
+                jcr:created="{Date}2015-08-21T16:32:08.926-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-08-21T16:39:42.342-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="Adobe/We-Shop/components/ionic-product"
+                description="Shirt"
+                num-images="3"
+                price="$36.99"
+                title="Ben Sherman Men's Gingham-Check Shirt">
+                <product-image0
+                    jcr:lastModified="{Date}2015-08-21T16:39:21.376-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="Adobe/We-Shop/components/product-image">
+                    <file/>
+                </product-image0>
+                <product-image1
+                    jcr:lastModified="{Date}2015-08-21T16:39:48.424-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="Adobe/We-Shop/components/product-image">
+                    <file/>
+                </product-image1>
+                <product-image2
+                    jcr:lastModified="{Date}2015-08-21T16:39:35.743-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="Adobe/We-Shop/components/product-image">
+                    <file/>
+                </product-image2>
+            </ionic_product>
+        </content-par>
+    </jcr:content>
+</jcr:root>

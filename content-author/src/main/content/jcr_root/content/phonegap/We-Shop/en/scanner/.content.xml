@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/etc/designs/phonegap/Adobe/We-Shop"
+        cq:lastModified="{Date}2015-08-31T14:08:45.622-07:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/Adobe/We-Shop/templates/ng-ionic-tabbar"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Scanner"
+        sling:resourceType="Adobe/We-Shop/components/ng-ionic-tabbar">
+        <content-par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <phonegap_camera
+                jcr:created="{Date}2015-08-24T10:52:58.026-07:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-08-24T10:52:58.026-07:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="Adobe/We-Shop/components/phonegap-camera"/>
+        </content-par>
+    </jcr:content>
+</jcr:root>
